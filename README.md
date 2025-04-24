@@ -57,7 +57,7 @@ A modern, full-featured Blog Content Management System (CMS) Admin Dashboard bui
 
 ### Installation
 
-git clone https://github.com/yourusername/blog-cms-admin-dashboard.git
+git clone https://github.com/SubithaNaidu/S9_09_Apr_86cygrb67.git
 cd blog-cms-admin-dashboard
 npm install
 # or
