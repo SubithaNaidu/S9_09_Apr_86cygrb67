@@ -1,0 +1,70 @@
+/* Background styling for the entire page */
+.container {
+    background: linear-gradient(135deg, #000000 0%, #ff8a00 100%); /* Black to Orange gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: white;  /* White text color for good contrast */
+    border-radius: 12px;
+  }
+  
+  /* Box containing the form */
+  .form-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    border: 2px solid #ff8a00; /* Orange border to complement the theme */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for the form box */
+  .form-box:hover {
+    transform: translateY(-10px);  /* Lift the box on hover */
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Input fields styling */
+  .input-field .MuiInputBase-root {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Button styles */
+  .update-btn {
+    background-color: #ff8a00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-btn:hover {
+    background-color: #ff7a00;
+  }
+  
+  .delete-btn {
+    border-color: #ff8a00;
+    color: #ff8a00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff8a00;
+    color: white;
+  }
+  
+  /* Dropdown select styles */
+  .MuiFormControl-root .MuiSelect-root {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  

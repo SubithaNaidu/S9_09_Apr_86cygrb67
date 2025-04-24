@@ -1,0 +1,66 @@
+/* AddPost.module.css */
+
+/* Container for the whole page */
+.container {
+    border-radius: 50;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffffff 0%, #8b00ef 100%); /* Black to Orange gradient */
+    padding: 20px;
+  }
+  
+  /* Card to hold the form */
+  .card {
+    color: white;
+    border-radius: 12px;  /* More rounded corners for a softer look */
+    padding: 40px;
+    width: 100%;
+    border-radius: 50;
+    max-width: 600px; /* Increase max-width for more space */
+    border: 1px solid #ff8a00;  /* Orange border to complement the theme */
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);  /* Soft, large shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for card */
+  .card:hover {
+    transform: translateY(-10px);  /* Slightly lift the card on hover */
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.8);  /* Larger shadow on hover */
+  }
+  
+  /* TextField input fields */
+  .MuiInputBase-root {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Button color */
+  button.MuiButton-root {
+    background-color: #ff8a00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;  /* Rounded button edges */
+    transition: background-color 0.3s ease;
+  }
+  
+  button.MuiButton-root:hover {
+    background-color: #ff7a00;
+  }
+  
+  /* Adjusting other elements */
+  .MuiFormControl-root .MuiSelect-root {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Snackbar error and success message styles */
+  .MuiSnackbarContent-root {
+    background-color: #ff8a00; /* Orange background for success */
+  }
+  
